@@ -250,16 +250,15 @@ Nᴀᴍᴇ - {}"""
 t.me/CineMoviezChannel</b>""" 
 
     IMDB_TEMPLATE_TXT = """
-<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {qurey}
+<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ➩ {qurey}
 
-INFO ☟
+INFO ➷
 
 <b>🏷 Title</b>: <a href={url}>{title}</a>
-🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 ☀️ Languages : <code>{languages}</code>
 
-Requested by : {message.from_user.mention}
+❥ Requested by : {message.from_user.mention}
 
 ⚠ ᴀꜰᴛᴇʀ 2 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑</b>"""
     
@@ -748,6 +747,7 @@ Example:- /set_caption 📕 File Name: {filename}
 
 
     
+
 
 
 
