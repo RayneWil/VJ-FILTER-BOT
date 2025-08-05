@@ -252,23 +252,16 @@ t.me/CineMoviezChannel</b>"""
     IMDB_TEMPLATE_TXT = """
 <b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {qurey}
 
-IMDb Data:
+INFO ☟
 
 <b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
 ☀️ Languages : <code>{languages}</code>
-📀 RunTime: {runtime} Minutes
-📆 Release Info : {release_date}
-🎛 Countries : <code>{countries}</code>
-
-
-⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
 
 Requested by : {message.from_user.mention}
 
-⚠ ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑</b>"""
+⚠ ᴀꜰᴛᴇʀ 2 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
@@ -755,6 +748,7 @@ Example:- /set_caption 📕 File Name: {filename}
 
 
     
+
 
 
 
