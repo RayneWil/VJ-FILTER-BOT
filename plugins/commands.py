@@ -1005,8 +1005,8 @@ async def requests(bot, message):
     if success:
         link = await bot.create_chat_invite_link(int(REQST_CHANNEL))
         btn = [[
-            InlineKeyboardButton('Join Channel', url=CHNL_LNK),
-            InlineKeyboardButton('jᴏɪɴ Gʀᴏᴜᴘ', url=GRP_LNK)
+            InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=CHNL_LNK),
+            InlineKeyboardButton('Jᴏɪɴ Gʀᴏᴜᴘ', url=GRP_LNK)
         ]]
         await message.reply_text("<b>Your request has been added! Please wait for some time.\n\nJoin Channel First & View Request</b>", reply_markup=InlineKeyboardMarkup(btn))
     
@@ -1404,4 +1404,5 @@ async def purge_requests(client, message):
             parse_mode=enums.ParseMode.MARKDOWN,
             disable_web_page_preview=True
         )
+
 
