@@ -1008,7 +1008,7 @@ async def requests(bot, message):
             InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=CHNL_LNK),
             InlineKeyboardButton('Jᴏɪɴ Gʀᴏᴜᴘ', url=GRP_LNK)
         ]]
-        await message.reply_text("<b>Dear🤗 {message.from_user.mention}\n\Your request has been added! Please wait for Sometime.\n\n♡ 𝘑𝘰𝘪𝘯 𝘊𝘩𝘢𝘯𝘯𝘦𝘭 & 𝘎𝘳𝘰𝘶𝘱 ♡</b>", reply_markup=InlineKeyboardMarkup(btn))
+        await message.reply_text("<b>Dear 🤗! {mention}\nYour request has been added! Please wait for Sometime.\n\n♡ 𝘑𝘰𝘪𝘯 𝘊𝘩𝘢𝘯𝘯𝘦𝘭 & 𝘎𝘳𝘰𝘶𝘱 ♡</b>", reply_markup=InlineKeyboardMarkup(btn))
     
 @Client.on_message(filters.command("send") & filters.user(ADMINS))
 async def send_msg(bot, message):
@@ -1404,6 +1404,7 @@ async def purge_requests(client, message):
             parse_mode=enums.ParseMode.MARKDOWN,
             disable_web_page_preview=True
         )
+
 
 
 
