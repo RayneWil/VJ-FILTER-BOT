@@ -246,7 +246,7 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
 
-<b>👇 𝐿𝒶𝓉𝑒𝓈𝓉 𝑀𝑜𝓋𝒾𝑒𝓈 👇
+<b>👇 𝘓𝘢𝘵𝘦𝘴𝘵 𝘔𝘰𝘷𝘪𝘦𝘴 👇
 t.me/CineMoviezChannel</b>""" 
 
     IMDB_TEMPLATE_TXT = """
@@ -513,7 +513,7 @@ Hey <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a>
 
  How and what to do
 
- Step 1: Administer this VJ-FILTER-BOT bot to your group
+ Step 1: Administer this CineMoviez bot to your group
 
  Step 2: Add your website and API
 
@@ -747,6 +747,7 @@ Example:- /set_caption 📕 File Name: {filename}
 
 
     
+
 
 
 
