@@ -246,9 +246,8 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
 
-<b>👇 𝓛𝓪𝓽𝓮𝓼𝓽 𝓜𝓸𝓿𝓲𝓮𝓼 👇
-t.me/CineMoviezChannel</b>
-[Jᴏɪɴ Cʜᴀɴɴᴇʟ](buttonurl:https://t.me/CineMoviezChannel)""" 
+<b>👇 𝐿𝒶𝓉𝑒𝓈𝓉 𝑀𝑜𝓋𝒾𝑒𝓈 👇
+t.me/CineMoviezChannel</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ➩ {qurey}
@@ -748,6 +747,7 @@ Example:- /set_caption 📕 File Name: {filename}
 
 
     
+
 
 
 
